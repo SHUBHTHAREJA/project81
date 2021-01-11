@@ -4,7 +4,7 @@ var ctx=canvas.getContext("2d");
 ctx.beginPath();
 ctx.strokeStyle="grey";
 ctx.lineWidth=4;
-ctx.arc(150,143,40,430,220);
+ctx.rect(150,143,430,220);
 ctx.stroke();
 
 ctx.beginPath();
@@ -34,5 +34,5 @@ ctx.stroke();
 ctx.beginPath();
 ctx.strokeStyle="red";
 ctx.lineWidth=5;
-ctx.arc(450,277,40,0,2*Math.PI);
+ctx.arc(450,210,40,0,2*Math.PI);
 ctx.stroke();
